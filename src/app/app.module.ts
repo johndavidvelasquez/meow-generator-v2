@@ -14,13 +14,10 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent,
-    FavoritesComponent
-  ],
+  declarations: [AppComponent, HomeComponent, FavoritesComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
@@ -31,9 +28,10 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     MatButtonModule,
     MatToolbarModule,
     MatProgressSpinnerModule,
-    MatGridListModule
+    MatGridListModule,
+    MatListModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
