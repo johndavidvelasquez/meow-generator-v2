@@ -1,6 +1,6 @@
 export interface ICatData {
-    id: number,
+    id: string,
     url: string,
-    width: number,
-    height: number
+    // width: number,
+    // height: number
 }
